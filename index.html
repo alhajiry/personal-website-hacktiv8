@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Student Web Project Hacktiv8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Abdul Latif Hajiry">
+
+        <title>Personal Blog</title>
+
+        <!----------------CSS and External Font---------------------->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="/style.css" type="text/css" rel="stylesheet">
+        <!----------------------------------------------------------->
+    </head>
+
+<!------------------------------header------------------------------>
+   <body id="myPage">
+    
+    <!----Landing Page-->
+    <section class="wrapper" id="parallax-1">
+        <div class="overlay">
+
+            <header class="d-flex-r clear justify-content-space-between">
+
+                <!-- Logo -->
+                <div class="my-1" id="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+
+                <!-- Navbar-->
+                <nav class="fl_right font-xs text-uppercase" id="main-navbar">
+
+                    <ul class="clear">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Hotels</a>
+                            <!-- List Ception;Ada list lagi di dalam list-->
+                          <ul>
+                            <li><a href="#">Placeholder</a></li>
+                            <li><a href="#">Placeholder</a></li>  
+                            <li><a href="#">Placeholder</a></li>  
+                            <li><a href="#">Placeholder</a></li>      
+                          </ul>
+                        </li>
+
+                        <li><a href="#" class="drop">Packages</a> 
+                            <!-- Another menu ception; Level 2 Links-->
+                          <ul>
+                              <li><a href="#">Level 2</a></li>
+                              <li><a href="#" class="drop">Level 2 + Drop</a>
+
+                                <!-- Level 3 Links -->
+                                <ul>
+                                    <li><a href="#">Level 3</a></li>
+                                    <li><a href="#">Level 3</a></li>
+                                    <li><a href="#">Level 3</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                        </li>
+
+                       <li><a href="#">Insurance</a></li>
+                       <li><a href="#">Blog</a></li>  
+                       <li><a href="#">Contact Us</a></li>                  
+                    </ul>
+                </nav>
+            </header>
+
+            <!---- Banner text on landing page -->
+            <div id="banner-text" class="d-flex-c text-left">
+                <article>
+                    <p class="my-1 text-uppercase font-xs">Away From Monotonous Life</p>
+                    <h1 class="heading text-left text-uppercase text-bold font-x3 my-1">Travel Now</h1>
+                    <p class="my-3 font-xs">This placeholder text was meant to be replaced later 
+                    <br>Semoga kekumpul tepat waktu, amin. </p>
+                    <footer><button class="btn" href="#">Click To Know More</button></footer>
+                </article>
+            </div>
+            <!-- Banner Text Ends Here!  ----->
+        </div>
+    </section>
+   </body>
+</html>
