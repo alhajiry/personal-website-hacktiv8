@@ -196,7 +196,7 @@ a:hover {font-weight: bold;}
 
 /* Parallax Scrolling Effects */
 #parallax-1 {
-    background: url(img/bg-1.jpg) fixed no-repeat;
+    background: url(img/bg-5.jpg) fixed no-repeat;
     min-height: 720px;
     background-position: center;
 }
